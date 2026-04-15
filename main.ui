@@ -29,11 +29,29 @@
      <widget class="QTableWidget" name="coffee_table"/>
     </item>
     <item>
-     <widget class="QPushButton" name="refresh_button">
-      <property name="text">
-       <string>Обновить данные</string>
-      </property>
-     </widget>
+     <layout class="QHBoxLayout" name="buttons_layout">
+      <item>
+       <widget class="QPushButton" name="add_button">
+        <property name="text">
+         <string>Добавить</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="edit_button">
+        <property name="text">
+         <string>Редактировать</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="refresh_button">
+        <property name="text">
+         <string>Обновить данные</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>
